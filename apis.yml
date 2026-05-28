@@ -1,0 +1,32 @@
+aid: fooddata-central
+name: FoodData Central
+description: "National Nutrient Database for Standard Reference"
+url: https://fdc.nal.usda.gov/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Health"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Health
+  - Public APIs
+apis:
+  - name: FoodData Central
+    description: "National Nutrient Database for Standard Reference"
+    humanURL: https://fdc.nal.usda.gov/
+    baseURL: https://fdc.nal.usda.gov/
+    tags:
+      - Health
+    properties:
+      - type: Documentation
+        url: https://fdc.nal.usda.gov/
+common:
+  - type: Website
+    url: https://fdc.nal.usda.gov/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
