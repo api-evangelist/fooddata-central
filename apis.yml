@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://fdc.nal.usda.gov/
 common:
+  - type: DomainSecurity
+    url: security/fooddata-central-domain-security.yml
   - type: Website
     url: https://fdc.nal.usda.gov/
   - type: PublicAPIsListing
