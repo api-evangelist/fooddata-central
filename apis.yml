@@ -12,35 +12,91 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fooddata-central.png
 name: FoodData Central
-description: "National Nutrient Database for Standard Reference"
+description: National Nutrient Database for Standard Reference
 url: https://fdc.nal.usda.gov/
 specificationVersion: '0.20'
 created: '2026-05-28'
 modified: '2026-05-28'
 x-source: public-apis/public-apis
-x-category: "Health"
+x-category: Health
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Health
-  - Public APIs
+- Health
+- Public APIs
 apis:
-  - name: FoodData Central
-    description: "National Nutrient Database for Standard Reference"
-    humanURL: https://fdc.nal.usda.gov/
-    baseURL: https://fdc.nal.usda.gov/
-    tags:
-      - Health
-    properties:
-      - type: Documentation
-        url: https://fdc.nal.usda.gov/
-common:
-  - type: DomainSecurity
-    url: security/fooddata-central-domain-security.yml
-  - type: Website
+- name: FoodData Central
+  description: National Nutrient Database for Standard Reference
+  humanURL: https://fdc.nal.usda.gov/
+  baseURL: https://fdc.nal.usda.gov/
+  tags:
+  - Health
+  properties:
+  - type: Documentation
     url: https://fdc.nal.usda.gov/
-  - type: PublicAPIsListing
-    url: https://github.com/public-apis/public-apis
+- aid: fooddata-central-central:fooddata-fdc-api
+  name: FoodData Central FDC API
+  description: endpoints to retrieve nutrient data
+  humanURL: https://fdc.nal.usda.gov/api-guide
+  baseURL: https://api.nal.usda.gov/fdc/v1
+  tags:
+  - FDC
+  properties:
+  - type: OpenAPI
+    url: openapi/fooddata-central-fdc-api-openapi.yml
+  - type: Documentation
+    url: https://fdc.nal.usda.gov/api-guide
+  - type: Signup
+    url: https://fdc.nal.usda.gov/api-key-signup
+common:
+- type: DomainSecurity
+  url: security/fooddata-central-domain-security.yml
+- type: Website
+  url: https://fdc.nal.usda.gov/
+- type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
+- type: AgenticAccess
+  url: agentic-access/fooddata-central-agentic-access.yml
+- type: DomainSecurity
+  url: security/fooddata-central-domain-security.yml
+- type: Authentication
+  url: authentication/fooddata-central-authentication.yml
+- type: Documentation
+  url: https://fdc.nal.usda.gov/api-guide
+- type: Portal
+  url: https://fdc.nal.usda.gov/
+- type: Signup
+  url: https://fdc.nal.usda.gov/api-key-signup
+- type: About
+  url: https://fdc.nal.usda.gov/about-us
+- type: Contact
+  url: https://fdc.nal.usda.gov/contact
+- type: FAQ
+  url: https://fdc.nal.usda.gov/faq
+- type: DataDownload
+  url: https://fdc.nal.usda.gov/download-datasets
+- type: ChangeLog
+  url: https://fdc.nal.usda.gov/log
+- type: X
+  url: https://twitter.com/usda_ars
+- type: Plans
+  url: plans/fooddata-central-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/fooddata-central-rate-limits.yml
+- type: FinOps
+  url: finops/fooddata-central-finops.yml
+- type: AgenticAccess
+  url: agentic-access/fooddata-central-agentic-access.yml
+- type: DomainSecurity
+  url: security/fooddata-central-domain-security.yml
+- type: Authentication
+  url: authentication/fooddata-central-authentication.yml
+- type: Plans
+  url: plans/fooddata-central-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/fooddata-central-rate-limits.yml
+- type: FinOps
+  url: finops/fooddata-central-finops.yml
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
