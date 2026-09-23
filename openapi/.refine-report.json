@@ -1,0 +1,20 @@
+{
+  "provider": "fooddata-central",
+  "sources": [
+    "_original/fooddata-central-central-api-openapi.json"
+  ],
+  "outputs": [
+    "fooddata-central-fdc-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "fooddata-central-central-api-openapi.json: upgraded openapi 3.0.0 -> OpenAPI 3.2.0",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "fooddata-central-fdc-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
+}
