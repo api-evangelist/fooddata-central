@@ -40,7 +40,6 @@ apis:
 - name: FoodData Central
   description: National Nutrient Database for Standard Reference
   humanURL: https://fdc.nal.usda.gov/
-  baseURL: https://fdc.nal.usda.gov/
   tags:
   - Health
   properties:
