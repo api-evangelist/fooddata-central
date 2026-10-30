@@ -1,4 +1,4 @@
-# FoodData Central (fooddata-central)
+# FoodData Central
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,26 +66,143 @@
 
 National Nutrient Database for Standard Reference
 
-**APIs.yml:** [apis.yml](apis.yml)
+**Areas:** Health · Public APIs
 
-## Type
-- **x-type:** company
-- **x-tier:** 3 (bulk-registered from public-apis)
-- **source:** [public-apis/public-apis](https://github.com/public-apis/public-apis) — category: Health
+## FoodData Central on APIs.io
 
-## API
-- **FoodData Central** — [Documentation](https://fdc.nal.usda.gov/)
+Everything profiled for FoodData Central is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fooddata-central/](https://apis.io/providers/fooddata-central/)** — or go straight to one of the APIs or properties below.
 
-## Tags
-Health, Public APIs
+### APIs (2)
 
-## Notes
-This entry was bulk-registered as part of a public-apis catalog sweep on 2026-05-28.
-A real OpenAPI artifact will be added during a follow-up enrichment pass if the provider publishes one.
+- [FoodData Central](https://apis.io/apis/fooddata-central/fooddata-central/) — National Nutrient Database for Standard Reference
+- [FoodData Central FDC API](https://apis.io/apis/fooddata-central/fooddata-fdc-api/) — endpoints to retrieve nutrient data
 
-## Timestamps
-- **Created:** 2026-05-28
-- **Modified:** 2026-05-28
+### Published properties
 
-## Maintainers
-- **Kin Lane** — kin@apievangelist.com
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Fooddata Central Agentic Access](https://apis.io/agentic-access/fooddata-central/fooddata-central-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [FoodItem](https://apis.io/schemas/fooddata-central/food-item/)
+- [FoodSearchCriteria](https://apis.io/schemas/fooddata-central/search-criteria/)
+- [SearchResult](https://apis.io/schemas/fooddata-central/search-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fooddata Central Context](https://apis.io/jsonld/fooddata-central/fooddata-central-context/)
+
+#### Examples (3)
+
+Example requests and responses.
+
+- [Get Food By Fdc Id](https://apis.io/examples/fooddata-central/get-food-by-fdc-id/)
+- [Get Foods Batch](https://apis.io/examples/fooddata-central/get-foods-batch/)
+- [Search Foods](https://apis.io/examples/fooddata-central/search-foods/)
+
+#### Collections (1)
+
+Postman and Open Collection request collections.
+
+- [Food Data Central FDC API](https://apis.io/collections/fooddata-central/open-fooddata-central-fdc-api/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FoodData Central — jsonschema rules](https://apis.io/rules/fooddata-central/fooddata-central-jsonschema-spectral-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fooddata Central Authentication](https://apis.io/security/fooddata-central/fooddata-central-authentication/)
+- [Fooddata Central Domain Security](https://apis.io/security/fooddata-central/fooddata-central-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Fooddata Central Plans Pricing](https://apis.io/plans/fooddata-central/fooddata-central-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Fooddata Central Rate Limits](https://apis.io/rate-limits/fooddata-central/fooddata-central-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Fooddata Central Finops](https://apis.io/finops/fooddata-central/fooddata-central-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fdc.nal.usda.gov/)
+- [Documentation](https://fdc.nal.usda.gov/api-guide)
+- [Changelog](https://fdc.nal.usda.gov/log)
+
+## API Evangelist rating
+
+**Kin Score 32.6** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 46.4 |
+| Contract quality | 55.2 |
+| Contract governance | 9.8 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 20.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.3** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fooddata-central/](https://apis.io/providers/fooddata-central/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FoodData Central: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fooddata-central/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
